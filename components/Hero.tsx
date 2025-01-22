@@ -54,7 +54,7 @@ export default function Hero({ cityName }: HeroProps) {
 
               <Link
                 href="tel:0157-926-430-00"
-                className="inline-block bg-blue-600 text-white px-8 py-4 rounded text-2xl font-bold hover:bg-blue-700 transition-colors"
+                className="inline-block bg-blue-600 text-white px-8 py-4 rounded text-xl font-bold hover:bg-blue-700 transition-colors"
               >
                 📞 0157-926-430-00
               </Link>

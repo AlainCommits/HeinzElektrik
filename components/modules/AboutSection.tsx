@@ -4,10 +4,10 @@ import Image from 'next/image'
 
 export default function AboutSection() {
   return (
-    <section className="py-16 bg-white" id="1">
+    <section className="py-16 bg-gradient-to-b from-white to-gray-50" id="1">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div>
+          <div className="bg-white/80 backdrop-blur-sm rounded-xl shadow-lg p-6 transition-all hover:shadow-xl">
             <Image
               src="/images/e5.jpg"
               alt="Elektriker bei der Arbeit"
@@ -22,7 +22,7 @@ export default function AboutSection() {
             </p>
           </div>
           
-          <div className="space-y-6">
+          <div className="bg-white/80 backdrop-blur-sm rounded-xl shadow-lg p-8 space-y-6 transition-all hover:shadow-xl">
             <h1 className="text-4xl font-bold">Elektro Heinz</h1>
             <h2 className="text-2xl">Ihr Elektriker für alle Fälle.</h2>
             
@@ -33,10 +33,6 @@ export default function AboutSection() {
               Elektriker Bereitschaft. Wir sind ein Team aus geprüften und erfahrenen Elektrikern 
               mit Standorten im gesamten Bundesgebiet.
             </p>
-
-            <div className="absolute top-4 right-4">
-              {/* <QRCode /> */}
-            </div>
           </div>
         </div>
       </div>
